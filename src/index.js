@@ -8,7 +8,7 @@ const Root = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const handleLoginSuccess = () => {
-    setIsLoggedIn(true); // Khi đăng nhập thành công
+    setIsLoggedIn(true);
   };
 
   const handleLoginFailure = () => {
@@ -42,6 +42,5 @@ const Root = () => {
   );
 };
 
-// Tạo root và render ứng dụng
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<Root />);

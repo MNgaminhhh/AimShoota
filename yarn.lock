@@ -1539,10 +1539,10 @@
   resolved "https://registry.npmjs.org/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz"
   integrity sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==
 
-"@mngaminh/mini-app-sdk-test@^1.0.23":
-  version "1.0.23"
-  resolved "https://registry.npmjs.org/@mngaminh/mini-app-sdk-test/-/mini-app-sdk-test-1.0.23.tgz"
-  integrity sha512-SckBfJ54s4pHDUwaMShiniO9LTGqCbxHTZ1JuPG+U08V0VJws8KLTX5dOUEZDr2Z7s5J0XEmidDwOfFJSnK2mg==
+"@mngaminh/mini-app-sdk-test@^1.0.24":
+  version "1.0.24"
+  resolved "https://registry.npmjs.org/@mngaminh/mini-app-sdk-test/-/mini-app-sdk-test-1.0.24.tgz"
+  integrity sha512-u0ea0DlRyiXX6Q6Kl/irkrTkLgST5OIUw5X6cG5vYai8+SZURLumsMERXwgGsVk9HRAi0DOUBLJ70shtFHNJxA==
   dependencies:
     mini-app-sdk-test "file:"
     react "^18.2.0"
@@ -2462,7 +2462,7 @@ agent-base@6:
   version "0.1.0"
   resolved "file:"
   dependencies:
-    "@mngaminh/mini-app-sdk-test" "^1.0.23"
+    "@mngaminh/mini-app-sdk-test" "^1.0.24"
     "@testing-library/jest-dom" "^5.14.1"
     "@testing-library/react" "^13.0.0"
     "@testing-library/user-event" "^13.2.1"
@@ -6375,7 +6375,7 @@ min-indent@^1.0.0:
   integrity sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==
 
 "mini-app-sdk-test@file:":
-  version "1.0.23"
+  version "1.0.24"
   resolved "file:node_modules/@mngaminh/mini-app-sdk-test"
   dependencies:
     mini-app-sdk-test "file:"

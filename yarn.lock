@@ -1539,10 +1539,10 @@
   resolved "https://registry.npmjs.org/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz"
   integrity sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==
 
-"@mngaminh/mini-app-sdk-test@^1.0.13":
-  version "1.0.13"
-  resolved "https://registry.npmjs.org/@mngaminh/mini-app-sdk-test/-/mini-app-sdk-test-1.0.13.tgz"
-  integrity sha512-S7lhavCN2Pt64IbEjdTZ9DmYmXQVcm38HtGjPw938Y2tRMN5mxQkcRopXAcYITIjqFVifeWR5kt/iu25sznSTQ==
+"@mngaminh/mini-app-sdk-test@^1.0.14":
+  version "1.0.14"
+  resolved "https://registry.npmjs.org/@mngaminh/mini-app-sdk-test/-/mini-app-sdk-test-1.0.14.tgz"
+  integrity sha512-msBFlREg8f6Q7W/NtP9mkgf37UkCqp+cgs7jle9w095FiPj0sFlSOr1euE1ni4pOUV+EF9+KZ/3l0Cqh7kepNQ==
   dependencies:
     mini-app-sdk-test "file:"
     react "^18.2.0"
@@ -2462,7 +2462,7 @@ agent-base@6:
   version "0.1.0"
   resolved "file:"
   dependencies:
-    "@mngaminh/mini-app-sdk-test" "^1.0.13"
+    "@mngaminh/mini-app-sdk-test" "^1.0.14"
     "@testing-library/jest-dom" "^5.14.1"
     "@testing-library/react" "^13.0.0"
     "@testing-library/user-event" "^13.2.1"
@@ -4677,11 +4677,6 @@ fs.realpath@^1.0.0:
   resolved "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   integrity sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==
 
-fsevents@^2.3.2, fsevents@~2.3.2:
-  version "2.3.2"
-  resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
-  integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
-
 function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz"
@@ -6380,7 +6375,7 @@ min-indent@^1.0.0:
   integrity sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==
 
 "mini-app-sdk-test@file:":
-  version "1.0.13"
+  version "1.0.14"
   resolved "file:node_modules/@mngaminh/mini-app-sdk-test"
   dependencies:
     mini-app-sdk-test "file:"

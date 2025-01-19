@@ -5,7 +5,7 @@ import App from "./App";
 import { MiniApp } from "@mngaminh/mini-app-sdk-test";
 
 const Root = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
 
   const handleLoginSuccess = () => {
     setIsLoggedIn(true);

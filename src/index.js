@@ -13,7 +13,6 @@ const Root = () => {
 
   const handleLoginFailure = () => {
     console.error("Login failed");
-    alert("Login failed. Please try again.");
   };
 
   return (

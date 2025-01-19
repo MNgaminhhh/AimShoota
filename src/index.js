@@ -20,7 +20,7 @@ const Root = () => {
     <div>
       {!isLoggedIn ? (
         <MiniApp
-          appid="your-app-id"
+          appid="id__hl0k5j8r1rp5mz35ggb0"
           onSuccess={handleLoginSuccess}
           onFailure={handleLoginFailure}
         >

@@ -12,7 +12,7 @@ const Root = () => {
   };
 
   const handleLoginFailure = () => {
-    console.error("Login failed");
+    console.error("Login failedd");
   };
 
   return (

@@ -8,12 +8,11 @@ const Root = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const handleLoginSuccess = () => {
-    console.log("click done");
     setIsLoggedIn(true);
   };
 
   const handleLoginFailure = () => {
-    console.error("Login failedd");
+    console.error("Login failed");
   };
 
   return (
@@ -30,7 +29,7 @@ const Root = () => {
                 onClick={open}
                 style={{ padding: "10px 20px", fontSize: "16px" }}
               >
-                Login to Continue 1
+                Login to Continue
               </button>
             </div>
           )}

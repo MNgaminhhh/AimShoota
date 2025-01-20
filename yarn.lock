@@ -1225,7 +1225,7 @@
   resolved "https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@interlinklabs/mdk@^1.1.12":
+"@interlinklabs/mdk@^1.1.10":
   version "1.1.12"
   resolved "https://registry.npmjs.org/@interlinklabs/mdk/-/mdk-1.1.12.tgz"
   integrity sha512-HJlfusJQg1dZJK9R7G93CoWPpvQNSK+TBINH+T9ev/lg8+tnY+vvUTIqCgRdxlWC2Hvyiq7T9RQOrZ7W0S3uHw==
@@ -2463,7 +2463,7 @@ agent-base@6:
   version "0.1.0"
   resolved "file:"
   dependencies:
-    "@interlinklabs/mdk" "^1.1.12"
+    "@interlinklabs/mdk" "^1.1.10"
     "@testing-library/jest-dom" "^5.14.1"
     "@testing-library/react" "^13.0.0"
     "@testing-library/user-event" "^13.2.1"

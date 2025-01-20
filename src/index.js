@@ -8,6 +8,7 @@ const Root = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const handleLoginSuccess = () => {
+    console.log("click done");
     setIsLoggedIn(true);
   };
 

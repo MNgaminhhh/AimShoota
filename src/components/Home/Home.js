@@ -21,13 +21,7 @@ function Home({ regAim, preAim }) {
         <div className="buttons-container">
           <button className="start-button" onClick={regAim}>
             Regular Aim
-            <div className="start-button-helper-text">(Click LMB to shoot)</div>
-          </button>
-          <button className="start-button" onClick={preAim}>
-            Pre Aim
-            <div className="start-button-helper-text">
-              (Hold RMB to aim and LMB to shoot)
-            </div>
+            <div className="start-button-helper-text">(Click to shoot)</div>
           </button>
         </div>
 

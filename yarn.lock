@@ -1225,10 +1225,10 @@
   resolved "https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@interlinklabs/mdk@^1.1.7":
-  version "1.1.7"
-  resolved "https://registry.npmjs.org/@interlinklabs/mdk/-/mdk-1.1.7.tgz"
-  integrity sha512-5jZC8wHCEJIGLHdhZYSBT4XyR6qv1RnfhwGDkyAS/4dyy28psKM9Sss0/mhQNpYKg1hMiZ2nEvGFZrypEjak2Q==
+"@interlinklabs/mdk@^1.1.8":
+  version "1.1.8"
+  resolved "https://registry.npmjs.org/@interlinklabs/mdk/-/mdk-1.1.8.tgz"
+  integrity sha512-rA6kxoO35uaXCEW/cOZx6MsUk5Et2VCDw7WdrtEPiC0gRXvSagcupPZRwInIFvtiyYUkldlOWXyhRMvo4s0G4g==
   dependencies:
     jwt-decode "^4.0.0"
     mini-app-sdk-test "file:"
@@ -2463,7 +2463,6 @@ agent-base@6:
   version "0.1.0"
   resolved "file:"
   dependencies:
-    "@interlinklabs/mdk" "^1.1.7"
     "@testing-library/jest-dom" "^5.14.1"
     "@testing-library/react" "^13.0.0"
     "@testing-library/user-event" "^13.2.1"
@@ -6381,8 +6380,9 @@ min-indent@^1.0.0:
   integrity sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==
 
 "mini-app-sdk-test@file:":
-  version "1.1.7"
+  version "1.1.8"
   resolved "file:node_modules/@interlinklabs/mdk"
+  integrity sha512-rA6kxoO35uaXCEW/cOZx6MsUk5Et2VCDw7WdrtEPiC0gRXvSagcupPZRwInIFvtiyYUkldlOWXyhRMvo4s0G4g==
   dependencies:
     jwt-decode "^4.0.0"
     mini-app-sdk-test "file:"

@@ -1,11 +1,11 @@
 import React from "react";
 import logo from "../../assets/logo.png";
-import { MiniApp } from "@mngaminh/mini-app-sdk-test";
+import { Mdk } from "@interlinklabs/mdk";
 
 function Home({ regAim, preAim }) {
-  const loginId = MiniApp.getLoginId();
+  const loginId = Mdk.getLoginId();
   const handleLogout = () => {
-    MiniApp.logOut();
+    Mdk.logOut();
     window.location.reload();
   };
 

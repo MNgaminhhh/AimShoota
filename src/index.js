@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import { MiniApp } from "@mngaminh/mini-app-sdk-test";
+import Mdk from "@interlinklabs/mdk";
 
 const Root = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -18,7 +18,7 @@ const Root = () => {
   return (
     <div>
       {!isLoggedIn ? (
-        <MiniApp
+        <Mdk
           appid="id__hl0k5j8r1rp5mz35ggb0"
           onSuccess={handleLoginSuccess}
           onFailure={handleLoginFailure}
@@ -33,7 +33,7 @@ const Root = () => {
               </button>
             </div>
           )}
-        </MiniApp>
+        </Mdk>
       ) : (
         <App />
       )}

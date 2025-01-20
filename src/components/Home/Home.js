@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/logo.png";
-import { Mdk } from "@interlinklabs/mdk";
+import Mdk from "@interlinklabs/mdk";
 
 function Home({ regAim, preAim }) {
   const loginId = Mdk.getLoginId();
